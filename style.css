@@ -84,6 +84,10 @@ main {
   height: 100%;
 }
 
+/* .articles-container {
+  display: flex;
+  flex-wrap: wrap;
+} */
 .new-post {
   display: flex;
   flex-direction: column;
@@ -305,7 +309,7 @@ p:not(.excluded, .footer-text) {
     padding: 0.75rem 2.5rem;
   }
 
-  main {
+  .articles-container {
     display: flex;
     flex-wrap: wrap;
   }
@@ -358,10 +362,10 @@ p:not(.excluded, .footer-text) {
     padding: 1rem 3rem;
   }
 
-  main {
+  /* main {
     display: flex;
     flex-wrap: wrap;
-  }
+  } */
 
   article {
     min-width: 350px;
