@@ -90,6 +90,10 @@ main {
   padding: 0 1rem;
 }
 
+#hidden {
+  display: none;
+}
+
 article {
   display: flex;
   flex-direction: column;
@@ -99,10 +103,6 @@ article {
   border-radius: 10px;
   overflow: hidden;
   margin: 1rem 0.75rem;
-}
-
-#hidden {
-  display: none;
 }
 
 .blog-imag {
