@@ -16,7 +16,6 @@ html {
 body {
   margin: 0 auto;
   height: 100%;
-  /* min-width: 320px; */
   max-width: 1200px;
 }
 
@@ -84,10 +83,6 @@ main {
   height: 100%;
 }
 
-/* .articles-container {
-  display: flex;
-  flex-wrap: wrap;
-} */
 .new-post {
   display: flex;
   flex-direction: column;
@@ -117,6 +112,12 @@ article {
 
 .blog-text {
   margin: 0 0.75rem;
+}
+
+.view-btn {
+  display: block;
+  margin: 0 auto 0.25rem;
+  border: none;
 }
 
 footer {
@@ -251,54 +252,6 @@ p:not(.excluded, .footer-text) {
   }
 }
 
-/* @media (min-width: 601px) {
-  body {
-    max-width: 768px;
-  }
-  .hero-div {
-    bottom: 2rem;
-    left: 2rem;
-  }
-
-  main {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  article {
-    min-width: 250px;
-    flex: 1;
-  }
-
-  .hero-text {
-    max-width: 60%;
-  } */
-
-/* ------------------------------------------------------------------------------- */
-/* -------------------------------- TYPOGRAPHY ----------------------------------- */
-/* ------------------------------------------------------------------------------- */
-
-/* .hero-title,
-  .post-title {
-    font-size: 2rem;
-  }
-
-  .nav-text a,
-  .hero-date,
-  .hero-text,
-  p {
-    font-size: 1.25rem;
-  }
-
-  .hero-text {
-    max-width: 70%;
-  }
-} */
-
-/* ------------------------------------------------------------------------------- */
-/* ---------------------------- Media Querie 769/1024 ----------------------------- */
-/* ------------------------------------------------------------------------------- */
-
 @media screen and (min-width: 769px) {
   .hero-div {
     bottom: 2rem;
@@ -361,11 +314,6 @@ p:not(.excluded, .footer-text) {
   nav {
     padding: 1rem 3rem;
   }
-
-  /* main {
-    display: flex;
-    flex-wrap: wrap;
-  } */
 
   article {
     min-width: 350px;
