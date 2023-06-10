@@ -4,7 +4,7 @@ let isClicked = false;
 
 viewBtn.addEventListener("click", function () {
   if (!isClicked) {
-    hidden.style.display = "block";
+    hidden.style.display = "contents";
     viewBtn.innerText = "View Less";
     isClicked = true;
   } else if (isClicked) {

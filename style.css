@@ -10,21 +10,13 @@
 html {
   background-color: #ccc;
   font-family: "Source Sans Pro", monospace;
-  height: 100vh;
 }
 
 body {
   margin: 0 auto;
-  height: 100%;
+  min-width: 320px;
   max-width: 1200px;
-}
-
-.container {
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
   background-color: #eee;
-  box-shadow: 0px 0px 30px 15px #666;
 }
 
 nav {
@@ -81,12 +73,20 @@ nav ul {
 main {
   padding: 0.25rem;
   height: 100%;
+  width: 100%;
 }
 
 .new-post {
   display: flex;
   flex-direction: column;
   padding: 0 1rem;
+}
+
+.intro {
+  display: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 3rem;
 }
 
 #hidden {
@@ -103,11 +103,6 @@ article {
   overflow: hidden;
   margin: 1rem 0.75rem;
 }
-
-/* .blog-img {
-  display: block;
-  width: 100%;
-} */
 
 .blog-text {
   margin: 0 0.75rem;
@@ -261,7 +256,7 @@ p:not(.excluded, .footer-text) {
     padding: 0.75rem 2.5rem;
   }
 
-  .articles-container {
+  main {
     display: flex;
     flex-wrap: wrap;
   }
