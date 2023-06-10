@@ -104,11 +104,10 @@ article {
   margin: 1rem 0.75rem;
 }
 
-.blog-imag {
+/* .blog-img {
   display: block;
   width: 100%;
-  border: 10px solid #fc0202;
-}
+} */
 
 .blog-text {
   margin: 0 0.75rem;
