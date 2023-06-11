@@ -79,14 +79,22 @@ main {
 .new-post {
   display: flex;
   flex-direction: column;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
 }
 
 .intro {
   display: column;
   align-items: center;
   gap: 2rem;
-  margin: 3rem;
+}
+
+.intro,
+.intro-text {
+  margin: 1rem;
+}
+
+.intro-img {
+  margin: 1rem 0;
 }
 
 #hidden {
@@ -110,7 +118,8 @@ article {
 
 .view-btn {
   display: block;
-  margin: 0 auto 1rem;
+  margin: 0 auto;
+  padding-bottom: 1rem;
   border: none;
 }
 
@@ -165,6 +174,10 @@ p {
 
 h2 {
   font-size: 1rem;
+}
+
+.recent {
+  text-align: center;
 }
 
 h3,
@@ -245,6 +258,10 @@ p:not(.excluded, .footer-text) {
     max-width: 70%;
   }
 }
+
+/* ------------------------------------------------------------------------------- */
+/* ---------------------------- Media Querie 769/1024 ----------------------------- */
+/* ------------------------------------------------------------------------------- */
 
 @media screen and (min-width: 769px) {
   .hero-div {
