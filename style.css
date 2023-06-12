@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Source+Code+Pro:wght@400;700&display=swap");
+
 *,
 *::before,
 *::after {
@@ -29,7 +31,7 @@ nav {
 
 .logo-div {
   display: flex;
-  gap: 0.1rem;
+  gap: 0.25rem;
 }
 
 .logo {
@@ -79,7 +81,7 @@ main {
 .new-post {
   display: flex;
   flex-direction: column;
-  /* padding: 0 1rem; */
+  padding: 0 1rem;
 }
 
 .intro {
@@ -138,6 +140,11 @@ nav {
 
 nav ul a,
 .nav-text a {
+  color: #000;
+}
+
+nav ul a,
+.nav-text a {
   text-decoration: none;
 }
 
@@ -168,12 +175,17 @@ p {
   font-size: 1.5rem;
 }
 
+.hero-title {
+  color: #fff;
+  padding: 0.75rem 0;
+}
+
 .hero-text {
   max-width: 100%;
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .recent {
@@ -346,7 +358,7 @@ p:not(.excluded, .footer-text) {
   }
 
   .hero-title {
-    padding: 1rem 0;
+    padding: 1.25rem 0;
   }
 
   .nav-text a,
