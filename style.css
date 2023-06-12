@@ -123,6 +123,7 @@ article {
   margin: 0 auto;
   padding-bottom: 1rem;
   border: none;
+  cursor: pointer;
 }
 
 footer {
