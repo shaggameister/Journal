@@ -208,7 +208,7 @@ p:not(.excluded, .footer-text) {
 /* ---------------------------- Media Querie 320/768 ----------------------------- */
 /* ------------------------------------------------------------------------------- */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 320px) {
   .hero-div {
     bottom: 1.5rem;
     left: 1.5rem;
